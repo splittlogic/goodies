@@ -1,0 +1,36 @@
+{
+    "name": "splittlogic/goodies",
+    "description": "Laravel package for goodies",
+    "keywords": [
+        "splittlogic",
+        "goodies"
+    ],
+    "homepage": "https://github.com/splittlogic/goodies",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "SplittLogic",
+            "email": "splittlogic@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        
+    },
+    "autoload": {
+        "psr-4": {
+            "splittlogic\\goodies\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "splittlogic\\goodies\\goodiesServiceProvider"
+            ],
+            "aliases": {
+                "goodies": "splittlogic\\goodies\\Facades\\goodies"
+            }
+        }
+    }
+}
